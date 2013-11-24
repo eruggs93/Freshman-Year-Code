@@ -1,0 +1,111 @@
+Eric Ruggieri
+
+5000 x 5000
+nested join
+real    0m0.625s
+user    0m0.976s
+sys     0m0.070s
+merge join
+real    0m0.726s
+user    0m1.461s
+sys     0m0.077s
+quick join
+real    0m0.737s
+user    0m1.430s
+sys     0m0.096s
+different join
+real    0m0.734s
+user    0m1.479s
+sys     0m0.078s
+
+10000 x 10000
+nested join
+real    0m0.980s
+user    0m1.601s
+sys     0m0.086s
+merge join
+real    0m0.944s
+user    0m1.750s
+sys     0m0.106s
+quick join
+real    0m0.863s
+user    0m1.555s
+sys     0m0.096s
+different join
+real    0m0.934s
+user    0m1.830s
+sys     0m0.104s
+
+50000 x 50000
+nested join
+real    0m14.095s
+user    0m14.570s
+sys     0m0.283s
+merge join
+real    0m2.031s
+user    0m3.179s
+sys     0m0.249s
+quick join
+real    0m1.706s
+user    0m1.936s
+sys     0m0.202s
+different join
+real    0m1.657s
+user    0m2.186s
+sys     0m0.219s
+
+1000 x 50000
+nested join
+real    0m0.657s
+user    0m1.079s
+sys     0m0.046s
+merge join
+real    0m0.698s
+user    0m1.422s
+sys     0m0.064s
+quick join
+real    0m0.550s
+user    0m1.099s
+sys     0m0.054s
+different join
+real    0m0.514s
+user    0m1.018s
+sys     0m0.049s
+
+50000 x 1000
+nested join
+real    0m0.642s
+user    0m0.975s
+sys     0m0.045s
+merge join
+real    0m0.776s
+user    0m1.602s
+sys     0m0.070s
+quick join
+real    0m0.552s
+user    0m1.083s
+sys     0m0.053s
+different join
+real    0m0.738s
+user    0m1.548s
+sys     0m0.073s
+
+100000 x 100000
+nested join
+real    0m22.001s
+user    0m22.388s
+sys     0m0.467s
+merge join
+real    0m3.328s
+user    0m3.683s
+sys     0m0.359s
+quick join
+real    0m2.555s
+user    0m2.164s
+sys     0m0.321s
+different join
+real    0m2.974s
+user    0m2.817s
+sys     0m0.340s
+
+
